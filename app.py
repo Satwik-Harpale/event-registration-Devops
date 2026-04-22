@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request
 
 app = Flask(__name__)
+print("CI CD trigger test")
 
 @app.route('/', methods=['GET', 'POST'])
 def register():
